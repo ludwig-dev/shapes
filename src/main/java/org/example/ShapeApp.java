@@ -9,5 +9,9 @@ public class ShapeApp {
         Shape rectangle = new Rectangle("Blue", 3.0, 5.0);
         rectangle.draw();
         System.out.println(rectangle);
+
+        Shape sqaure = new Square("Red", 4.0);
+        sqaure.draw();
+        System.out.println(sqaure);
     }
 }
